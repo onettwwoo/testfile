@@ -1,0 +1,293 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    /*바로가기 밑줄 제거*/
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: black;
+}
+
+/* top */
+
+.top {
+    border-bottom: 1.1px solid rgb(228, 228, 228);
+    /* position: fixed; */
+}
+
+.header {
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 65px;
+
+
+    /* background: green; */
+
+}
+
+.nlogin {
+    width: 1000px;
+    /* background: red; */
+    display: flex;
+    line-height: 70px;
+}
+
+
+.logoarea {
+    /* background: yellow; */
+    line-height: 80px;
+    margin-left: 10px;
+}
+
+.navarea {
+    display: flex;
+    /* background: blue; */
+}
+
+.navarea>li {
+    margin-left: 25px;
+    /* background: aqua; */
+}
+
+.login {
+    /* background: orange; */
+    width: calc(1280px - 1000px);
+    display: flex;
+    justify-content: flex-end;
+    line-height: 70px;
+    margin-right: 30px;
+    color:rgb(99, 99, 99);
+}
+
+
+
+
+
+
+/* middle--111111111111111111----------------------------------------------------------- */
+
+
+
+.contents {
+    width: 1250px;
+    margin: auto;
+}
+
+
+.middle1-1 {
+    /* background: red; */
+    /* height: 100px; */
+    margin-top: 80px;
+    color: rgb(225, 146, 0);
+    font-weight: bold;
+
+}
+
+
+
+.middle1-2 {
+    /* background: orange; */
+    /* height: 62px; */
+    /* width: 100%; */
+    /* background: yellow; */
+    margin: 13px auto 0px auto;
+}
+
+
+.middle1-3-1{
+    color: gray;
+    /* background: blue; */
+    /* position: relative;
+    top:-20px; */
+    margin-top:10px;
+
+}
+
+
+
+.middle1-3-2{
+    justify-content: end;
+    /* background: blue; */
+    display: flex;
+    margin-right: 20px;
+    font-weight: bold 200;
+    
+}
+
+/* ----22222222222-2------------------------------------------------------------------ */
+
+.middle2{
+    margin-top: 20px;
+}
+
+.middle2>ul {
+    display: flex;
+    /* background:red; */
+}
+
+.middle2>ul>li {
+    text-align: center;
+    /* background: green; */
+    flex: 1;
+    /* 한자리씩 차지해라 ..?*/
+    margin: auto;
+    height: 410px;
+}
+
+/* .middle2-1 {
+    background: red;
+} */
+
+/* .middle2-2 {
+    background: aqua;
+} */
+
+.middle2-1>li>div>img {
+    border-radius: 4%;
+}
+
+.middle2-2>li>div>img {
+    border-radius: 4%;
+}
+
+
+
+
+/* ----3--3333333333333------------------------------ */
+
+.middle3-1{
+    margin-top:80px;
+    color: rgb(225, 146, 0);
+    font-weight: bold;
+}
+
+.middle3-2{
+    margin-top:13px;
+}
+
+.middle3-3{
+    margin-top:10px;
+    color: gray;
+}
+
+
+/* -4--444444444----44444444------------------------------------ */
+
+
+.middle4 > div{
+    display:flex;
+}
+
+
+.middle4 > div > div > img{
+    border-radius: 4%;
+    width: 600px;
+    height: 310px;
+    /* margin-left: 20px; */
+    /* margin-right: 20px; */
+}
+
+.middle4-1 > div > img{
+    margin-top: 50px;
+}
+
+.middle4-2 > div > img{
+    margin-top: 30px;
+
+}
+
+.middle4-1-2{
+    margin-left: 30px;
+}
+
+.middle4-2-4{
+    margin-left: 30px;
+}
+
+
+/* bottom ------------------------- */
+
+.b1{
+    border-top:1.3px solid rgb(186, 186, 186);
+    margin-top: 150px;
+    /* display: flex; */
+}
+
+.b2{
+    width: 1280px;
+    margin: auto;
+    /* display: flex; */
+}
+
+.left{
+    margin-top: 25px;
+    margin-left: 8px;
+    /* background: red; */
+}
+
+.right{
+    float: right;
+    position: relative;
+    top:-40px;
+    right:+30px
+}
+
+.right-1{
+    display:flex;
+    width: 300px;
+    /* float: right; */
+    /* background: blue; */
+}
+
+.right-1 > div > h3{
+    font-size: 13px;
+    color: gray;
+    font-weight: lighter;
+}
+
+
+.right-1>div>ul>li{
+    font-size: small;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.right-1>div>h3{
+    margin-bottom: 10px;
+}
+
+.right-1-1{
+    margin-right: 130px;
+}
+
+.right-1-2>div{
+    font-size:small;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* display: flex; 자유롭게 정렬 */
+/* display:flex; justify-content:end;    > "글자" 왼쪽 정렬 */
+/* font-weight: bold; 볼드*/
+/* position: relative; top:-10px; 위치 수동으로 바꾸기*/
+/* border-radius: 30%; 이미지 둥글게 */
+/* width: 1280px; margin: auto;   양 옆 여백주기 */
+/* border-bottom: 1.1px solid; 밑줄 */
+/* font-size: 글자 크기 */
+
+

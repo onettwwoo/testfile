@@ -1,0 +1,42 @@
+.quickmenu {
+    display: flex;
+    font-size: 17px;
+    margin-bottom: 20px;
+    box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+    text-align: center;
+}
+
+.quickmenu-1 {
+    /* display: flex; */
+    flex-grow: 2;
+    flex-basis: 0;
+    height: 70px;
+    background-color: #ffce0b;
+    color: black;
+}
+
+.quickmenu-1 li {
+    /* display: flex; */
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.quickmenu-2 {
+    display: flex;
+    flex-grow: 3;
+    flex-basis: 0;
+    height: 70px;
+    background-color: white;
+}
+
+.quickmenu-2 li {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+;
